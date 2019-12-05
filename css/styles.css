@@ -33,16 +33,25 @@ body {
 .hero h1 {
   font-size: 2em;
   text-align: center;
-  padding: 6%;
+  padding: 8%;
   margin: 0;
 }
 .hero-products {
   display: flex;
   justify-content: center;
+  background-image: url("../images/curve.png");
+  /* padding: 20%; */
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  /* padding: 15%; */
 }
 .product {
   max-width: 200px;
+  max-height: 65%;
   box-shadow: 0 0 1px #c1bcbc;
+  margin-top: -60px;
+  background: white;
 }
 .product.one {
   margin-right: 20px;
