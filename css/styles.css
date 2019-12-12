@@ -7,13 +7,25 @@
   --box-btn: inset 0 -0.2em rgba(0, 0, 0, 0.2);
   --white-color: white;
   --black-color: #2e2c2c;
-  --tamaño: 12px;
+  --parrafo: 12px;
+  --tituloh1: 30px;
+  --tituloh3: 17px;
 }
 
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  font-size: var(--tamaño);
+  font-size: var(--parrafo);
+}
+h1 {
+  font-size: var(--tituloh1);
+}
+h3 {
+  font-size: var(--tituloh3);
+  margin: 0;
+}
+p {
+  font-size: var(--parrafo);
 }
 .header {
   display: flex;
@@ -43,7 +55,6 @@ body {
 }
 
 .hero h1 {
-  font-size: 2.4em;
   text-align: center;
   padding: 8%;
   margin: 0;
@@ -60,7 +71,7 @@ body {
 }
 .product {
   max-width: 240px;
-  max-height: 68%;
+  max-height: 73%;
   box-shadow: var(--box);
   margin-top: -75px;
   background: var(--white-color);
@@ -77,13 +88,7 @@ body {
 .product-details {
   padding: 0.8em;
 }
-.product h3 {
-  margin: 0;
-  font-size: 1.4em;
-}
-.product p {
-  font-size: 10px;
-}
+
 .btn {
   width: 100%;
   background: var(--green-color);
@@ -96,9 +101,41 @@ body {
   outline: 0;
   transition: 0.2s;
   will-change: transform;
-  font-size: 1.3em;
+  font-size: var(--tituloh3);
 }
 
 .btn:active {
   transform: scale(0.9);
+}
+.exhibitions {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 130px;
+  flex-wrap: wrap;
+}
+
+.exhibition {
+  max-width: 170px;
+  max-height: 260px;
+}
+.image {
+  margin: 0 auto;
+}
+.image.cute {
+  max-width: 138px;
+  max-height: 110px;
+}
+.image.increible {
+  max-width: 112px;
+  max-height: 105px;
+}
+.image.hot {
+  max-width: 104px;
+  max-height: 105px;
+}
+.image img {
+  width: 100%;
+}
+.exhidetails {
+  margin-top: 33px;
 }
