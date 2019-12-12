@@ -3,7 +3,7 @@
 /* creamos variables repetitivas */
 :root {
   --green-color: #7acc2d;
-  --box: 0 0 1px #c1bcbc;
+  --box: 0 0 2px #c1bcbc;
   --box-btn: inset 0 -0.2em rgba(0, 0, 0, 0.2);
   --white-color: white;
   --black-color: #2e2c2c;
@@ -43,7 +43,7 @@ body {
 }
 
 .hero h1 {
-  font-size: 2em;
+  font-size: 2.4em;
   text-align: center;
   padding: 8%;
   margin: 0;
@@ -59,10 +59,10 @@ body {
   /* padding: 15%; */
 }
 .product {
-  max-width: 200px;
-  max-height: 65%;
+  max-width: 240px;
+  max-height: 68%;
   box-shadow: var(--box);
-  margin-top: -60px;
+  margin-top: -75px;
   background: var(--white-color);
 }
 .product.one {
@@ -75,10 +75,11 @@ body {
 }
 
 .product-details {
-  padding: 0.5em;
+  padding: 0.8em;
 }
 .product h3 {
   margin: 0;
+  font-size: 1.4em;
 }
 .product p {
   font-size: 10px;
@@ -95,6 +96,7 @@ body {
   outline: 0;
   transition: 0.2s;
   will-change: transform;
+  font-size: 1.3em;
 }
 
 .btn:active {
