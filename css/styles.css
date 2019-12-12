@@ -3,7 +3,7 @@
 /* creamos variables repetitivas */
 :root {
   --green-color: #7acc2d;
-  --box: 0 0 2px #c1bcbc;
+  --box: 1px 1px 8px #c1bcbc;
   --box-btn: inset 0 -0.2em rgba(0, 0, 0, 0.2);
   --white-color: white;
   --black-color: #2e2c2c;
@@ -19,6 +19,7 @@ body {
 }
 h1 {
   font-size: var(--tituloh1);
+  margin: 0;
 }
 h3 {
   font-size: var(--tituloh3);
@@ -57,7 +58,6 @@ p {
 .hero h1 {
   text-align: center;
   padding: 8%;
-  margin: 0;
 }
 .hero-products {
   display: flex;
@@ -138,4 +138,39 @@ p {
 }
 .exhidetails {
   margin-top: 33px;
+}
+.menciones {
+  margin-top: 140px;
+}
+.menciones h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.cards-menciones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  max-width: 240px;
+  max-height: 190px;
+  margin-right: 10px;
+  box-shadow: var(--box);
+}
+.card:last-child {
+  margin-right: 0;
+}
+.card-image {
+  margin: 0;
+  height: 105px;
+}
+.card-image img {
+  width: 100%;
+}
+.card-details {
+  padding: 8px;
+}
+.card-details p {
+  margin: 0;
+  margin-top: 5px;
 }
