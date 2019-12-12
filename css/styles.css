@@ -152,6 +152,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .card {
   max-width: 240px;
