@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    padding: 4%;
+  }
+  .product {
+    margin-top: 60px;
+  }
+}
