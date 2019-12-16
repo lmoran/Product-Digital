@@ -44,6 +44,19 @@
   .card:nth-of-type(3) {
     margin-right: 0;
   }
+  .compras {
+    padding: 10px;
+  }
+  .compra {
+    margin-right: 10px;
+  }
+  .compras form {
+    max-width: 230px;
+    max-height: 250px;
+  }
+  .data {
+    height: 24px;
+  }
 }
 @media screen and (max-width: 390px) {
   .exhibitions {
@@ -77,6 +90,9 @@
   }
   .exhibitions {
     margin-top: 80px;
+  }
+  .btn {
+    font-size: 14px;
   }
 }
 /* ------------------------------------------------------------------------ */

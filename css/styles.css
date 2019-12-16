@@ -187,7 +187,7 @@ p {
   padding: 0 17px;
 }
 /* ------------------------------------------------------------- */
-/* section ventas */
+/* section products */
 .container {
   max-width: 1024px;
   margin: 0 auto;
@@ -216,4 +216,39 @@ p {
 }
 .venta-details {
   align-self: center;
+}
+
+/* ------------------------------------------------------------- */
+/* section ventas */
+.compras {
+  height: calc(100vh - 120px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.compra {
+  max-width: 240px;
+  max-height: 73%;
+  box-shadow: var(--box);
+  background: var(--white-color);
+  margin-right: 20px;
+}
+.compras form {
+  width: 340px;
+  height: 270px;
+  padding: 10px;
+  box-shadow: var(--box);
+  box-sizing: border-box;
+}
+
+.compras label {
+  margin-bottom: 10px;
+}
+
+.data {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 32px;
+  border-radius: 5px;
+  border: 1px solid var(--black-color);
 }
