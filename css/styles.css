@@ -186,4 +186,34 @@ p {
   justify-content: space-between;
   padding: 0 17px;
 }
-
+/* ------------------------------------------------------------- */
+/* section ventas */
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-gap: 15px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.venta {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 15px;
+}
+.venta.two {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.venta-image {
+  margin: 0;
+  max-width: 300px;
+  justify-self: center;
+}
+.venta-image img {
+  width: 100%;
+}
+.venta-details {
+  align-self: center;
+}
