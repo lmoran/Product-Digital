@@ -186,6 +186,10 @@ p {
   justify-content: space-between;
   padding: 0 17px;
 }
+.contact {
+  color: var(--green-color);
+  text-decoration: none;
+}
 /* ------------------------------------------------------------- */
 /* section products */
 .container {
