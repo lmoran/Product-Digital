@@ -270,3 +270,16 @@ p {
   text-decoration: none;
   color: var(--green-color);
 }
+
+/* ------------------------------------------------------------- */
+/* section Faqs */
+.faqs {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, auto);
+  justify-content: center;
+  padding: 20px;
+  grid-row-gap: 20px;
+}
+.faqs .title {
+  margin: 30px 0;
+}
