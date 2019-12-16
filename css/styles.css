@@ -252,3 +252,21 @@ p {
   border-radius: 5px;
   border: 1px solid var(--black-color);
 }
+
+/* ------------------------------------------------------------- */
+/* section Mensaje éxito */
+.exito {
+  background-color: var(--black-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-color);
+}
+.mensaje {
+  text-align: center;
+}
+.mensaje a {
+  text-decoration: none;
+  color: var(--green-color);
+}
